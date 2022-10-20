@@ -1,28 +1,25 @@
-# Projetinho 📓
+# Exercício de Casa 🏠 
 
-## BankReprograma
+## Nome do Exercicio
 
-### Agora chegou a hora da verdade
+- Explicação do exercício: Utilizando todos os conhecimentos adquiridos na aula, crie uma `API RESTFUL` usando Express que irá listar os produtos de um ecommerce.
 
-Use todo o conhecimento aprendido até o momento e crie uma API de um banco.
+O modelo dos produtos está em `/exercicios/para-casa/models/produtos.json`
 
-Essa API deve ser capaz de:
 
-- Criar os clientes do banco
-- Atualizar informações desses clientes ( como endereço, telefone de contato...)
-- Fazer depósitos / pagamentos usando o saldo de sua conta
-- Encerrar contas de clientes
-- Conseguir Filtrar os clientes do banco pelo seu nome,por saldo...
-
+ Requisitos do exercício:
+- [ ] expor uma rota GET que recebe o ID de um produto e retorna apenas esse produto na lista de produtos
+- [ ] criar uma rota GET que lista TODOS os produtos da lista de produtos.
+- [ ] Adicionar um novo item à lista de produtos.
+- [ ] Utilizar o recurso `req.params.query` para criar filtros ( ex.: buscar por nome do produto, valor... ) - * Os filtros ficam a seu critério mas espero que exista ao menos dois filtros para sua rota * 
 ---
 
-Terminou o projetinho? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
+Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
 - [ ] Fiz o fork do repositório.
 - [ ] Clonei o fork na minha máquina (`git clone url-do-meu-fork`).
-- [ ] Dentro da pasta "projeto-casa" criei uma pasta "projeto-meu-nome".
-- [ ] Resolvi o exercício proposto no projeto dentro da minha pasta "projeto-meu-nome".
+- [ ] Resolvi o exercício.
 - [ ] Adicionei as mudanças. (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
 - [ ] Commitei a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
 - [ ] Pushei os commits na minha branch (`git push origin nome-da-branch`)
-- [ ] Criei um Pull Request seguindo as orientaçoes que estao nesse [documento](/exercicios/projeto-casa/instrucoes-pull-request.md).
+- [ ] Criei um Pull Request seguindo as orientaçoes que estao nesse [documento](/exercicios/para-casa/instrucoes-pull-request.md).
